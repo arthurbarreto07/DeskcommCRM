@@ -1,3 +1,26 @@
+> ## 👋 Fork de Arthur Barreto — contribuição: Cold Call
+>
+> Este é o meu fork do [DeskcommCRM](https://github.com/melgarafael/DeskcommCRM), CRM open source
+> com IA para WhatsApp. Aqui eu desenvolvi a **função Cold Call**, aceita e incorporada ao projeto
+> oficial no [PR #3933](https://github.com/melgarafael/DeskcommCRM/pull/3933) (mergeado em 04/11/2026).
+>
+> **O que o Cold Call faz:** uma tela para ligar para uma lista de leads, um por vez.
+> - Cria um funil próprio de cold call, importa a lista por planilha e monta a fila de ligações
+> - Mostra os dados do contato, a conversa, o resumo da chamada e um roteiro editável com variáveis
+> - Liga pelo próprio CRM quando há canal de voz, com sons de discando, atendeu, recusou e encerrou;
+>   sem canal, abre o discador do aparelho
+> - Cada resultado (não atendeu, caixa postal, follow-up, pediu reunião, sem interesse, número errado)
+>   move o lead no funil e fica registrado na linha do tempo e na auditoria
+>
+> **Onde está o código:** [`app/app/cold-call`](app/app/cold-call) (tela),
+> [`app/api/v1/cold-call`](app/api/v1/cold-call) (API) e [`lib/cold-call`](lib/cold-call) (regras).
+>
+> ![Tela de ligação do Cold Call](evidence/cold-call/sessao-desktop.png)
+>
+> *Abaixo, o README original do projeto.*
+
+---
+
 <div align="center">
 
 🇧🇷 Português · [🇺🇸 English](README.en.md) · [🇪🇸 Español](README.es.md)
